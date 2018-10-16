@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Administrator/CLionProjects/cppusedll/library.h
+
+C:/Users/Administrator/CLionProjects/cppusedll/main.cpp
+library.h
+C:/Users/Administrator/CLionProjects/cppusedll/library.h
+iostream
+-
+windows.h
+-
+
