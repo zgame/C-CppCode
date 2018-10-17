@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Administrator/Documents/GitHub/CppCode/cmakedll/library.c
+stdio.h
+-
+library.h
+C:/Users/Administrator/Documents/GitHub/CppCode/cmakedll/library.h
+
+C:/Users/Administrator/Documents/GitHub/CppCode/cmakedll/library.h
+

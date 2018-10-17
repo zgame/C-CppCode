@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Administrator/Documents/GitHub/CppCode/cusedll/library.h
+
+C:/Users/Administrator/Documents/GitHub/CppCode/cusedll/main.c
+library.h
+C:/Users/Administrator/Documents/GitHub/CppCode/cusedll/library.h
+
