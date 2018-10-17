@@ -1,4 +1,4 @@
-#include "library.h"
+#include "exportgo.h"
 #include <iostream>
 #include <windows.h>
 
@@ -11,8 +11,11 @@ int main() {
 //    f = (pointer)GetProcAddress(handle, "hello");
 //    f();
 //    FreeLibrary(handle);
+    Hello();
     hello();
 
+
+    printf("Sum:%d", Sum(10,2));
 
 
     return 0;

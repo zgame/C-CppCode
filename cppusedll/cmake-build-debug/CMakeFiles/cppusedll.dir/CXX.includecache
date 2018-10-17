@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Administrator/CLionProjects/cppusedll/library.h
+C:/Users/Administrator/Documents/GitHub/CppCode/cppusedll/exportgo.h
+stddef.h
+-
 
-C:/Users/Administrator/CLionProjects/cppusedll/main.cpp
-library.h
-C:/Users/Administrator/CLionProjects/cppusedll/library.h
+C:/Users/Administrator/Documents/GitHub/CppCode/cppusedll/main.cpp
+exportgo.h
+C:/Users/Administrator/Documents/GitHub/CppCode/cppusedll/exportgo.h
 iostream
 -
 windows.h

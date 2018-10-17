@@ -9,4 +9,5 @@
 extern "C"
 {
 IO_XXX_DLL void hello(void);
+IO_XXX_DLL void Hello(void);
 }

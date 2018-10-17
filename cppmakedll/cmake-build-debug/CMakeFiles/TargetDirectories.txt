@@ -1,3 +1,3 @@
-C:/Users/Administrator/CLionProjects/cppmakedll/cmake-build-debug/CMakeFiles/cppmakedll.dir
-C:/Users/Administrator/CLionProjects/cppmakedll/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Administrator/CLionProjects/cppmakedll/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Administrator/Documents/GitHub/CppCode/cppmakedll/cmake-build-debug/CMakeFiles/cppmakedll.dir
+C:/Users/Administrator/Documents/GitHub/CppCode/cppmakedll/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Administrator/Documents/GitHub/CppCode/cppmakedll/cmake-build-debug/CMakeFiles/rebuild_cache.dir
