@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cdll_test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cdll_test">
+				<Option output="C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug/libcdll_test.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.2/include"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.2/include-fixed"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug/Makefile&quot;  VERBOSE=1 cdll_test"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cdll_test/fast">
+				<Option output="C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug/libcdll_test.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.2/include"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.2/include-fixed"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug/Makefile&quot;  VERBOSE=1 cdll_test/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/pb1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lapi.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lapi.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lauxlib.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lauxlib.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lbaselib.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lbitlib.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lcode.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lcode.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lcorolib.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lctype.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lctype.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/ldblib.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/ldebug.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/ldebug.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/ldo.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/ldo.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/ldump.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lfunc.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lfunc.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lgc.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lgc.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/linit.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/liolib.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/llex.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/llex.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lmathlib.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lmem.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lmem.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/loadlib.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lobject.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lobject.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lopcodes.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lopcodes.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/loslib.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lparser.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lparser.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lstate.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lstate.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lstring.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lstring.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lstrlib.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/ltable.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/ltable.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/ltablib.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/ltm.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/ltm.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lua.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lua.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/luaconf.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lualib.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lundump.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lundump.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lutf8lib.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lvm.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lvm.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lzio.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/lzio.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/pb.c">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/pb.h">
+			<Option target="cdll_test"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/pb1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pb"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pb">
+				<Option output="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/libpb.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.2/include"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.2/include-fixed"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 pb"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pb/fast">
+				<Option output="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/libpb.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.2/include"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.2/include-fixed"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 pb/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lapi.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lapi.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lauxlib.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lauxlib.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lbaselib.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lbitlib.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lcode.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lcode.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lcorolib.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lctype.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lctype.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/ldblib.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/ldebug.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/ldebug.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/ldo.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/ldo.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/ldump.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lfunc.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lfunc.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lgc.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lgc.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/linit.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/liolib.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/llex.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/llex.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lmathlib.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lmem.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lmem.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/loadlib.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lobject.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lobject.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lopcodes.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lopcodes.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/loslib.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lparser.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lparser.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lstate.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lstate.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lstring.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lstring.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lstrlib.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/ltable.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/ltable.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/ltablib.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/ltm.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/ltm.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lua.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lua.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/luaconf.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lualib.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lundump.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lundump.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lutf8lib.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lvm.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lvm.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lzio.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/lzio.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/pb.c">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/pb.h">
+			<Option target="pb"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

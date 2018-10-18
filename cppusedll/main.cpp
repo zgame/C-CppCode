@@ -11,12 +11,18 @@ int main() {
 //    f = (pointer)GetProcAddress(handle, "hello");
 //    f();
 //    FreeLibrary(handle);
-    Hello();
-    hello();
+    const char * pp = "sdfsdfsdfsdf";
 
 
-    printf("Sum:%d", Sum(10,2));
+    GoString stt = {pp, (ptrdiff_t) strlen(pp)};
+    hello(stt);
 
+    Hello(stt);
+    hello(stt);
+
+
+    printf(":%s", hello(stt).p);
+    Sum(10,2,stt);
 
     return 0;
 }
