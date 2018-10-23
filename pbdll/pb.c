@@ -362,6 +362,7 @@ static int struct_unpack(lua_State *L)
         }
         case 'f':
         {
+
             lua_pushnumber(L, (lua_Number)*(float*)unpack_fixed32(buffer, out));
             break;
         }
