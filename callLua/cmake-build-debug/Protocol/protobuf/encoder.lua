@@ -54,7 +54,7 @@ print("encoder")
 
 
 function _SimpleSizer(compute_value_size)
-    print("---------------_SimpleSizer")
+--    print("---------------_SimpleSizer")
     return function(field_number, is_repeated, is_packed)
         local tag_size = _TagSize(field_number)
         if is_packed then
@@ -242,7 +242,7 @@ end
 
 
 function _SimpleEncoder(wire_type, encode_value, compute_value_size)
-    print("---------------_SimpleEncoder",wire_type)
+--    print("---------------_SimpleEncoder",wire_type)
 
     return function(field_number, is_repeated, is_packed)
         if is_packed then

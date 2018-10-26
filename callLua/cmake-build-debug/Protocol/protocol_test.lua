@@ -10,23 +10,17 @@ local user_pb = require('user_pb')
 
 local person= user_pb.Friend()
 print("-------------1--------: ", person)
-person.name = true
-print(person.name)
-person.adress = false
+person.nameb = 1
+--person.adress = false
 
 
 
 print("-------------2--------")
 local data = person:SerializeToString()
-print("-------------3--------")
+print("-------------3--------data",data)
 local msg = user_pb.Friend()
 print("-------------4--------")
 msg:ParseFromString(data)
 print("-------------5--------")
-print(msg)
+print(msg.nameb)
 
-
-xpcall(main, function(err)
-	    print(err)
-	    print(debug.traceback())
-	end)

@@ -15,7 +15,7 @@
 --  CREATED:  2010年07月29日 14时30分02秒 CST
 --------------------------------------------------------------------------------
 --
-local print = print
+--local print = print
 
 
 local setmetatable = setmetatable
@@ -298,7 +298,7 @@ local function _DefaultValueConstructorForField(field)
 end
 
 local function _AttachFieldHelpers(message_meta, field_descriptor)
-    print("_AttachFieldHelpers--",field_descriptor.label,"---",field_descriptor.has_options)
+--    print("_AttachFieldHelpers--",field_descriptor.label,"---",field_descriptor.has_options)
 
     local is_repeated = (field_descriptor.label == FieldDescriptor.LABEL_REPEATED)
     local is_packed = (field_descriptor.has_options and field_descriptor.GetOptions().packed)

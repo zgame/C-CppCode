@@ -125,6 +125,7 @@ static int signed_varint_encoder(lua_State *L)
 {
     lua_Number l_value = luaL_checknumber(L, 2);
     int64_t value = (int64_t)l_value;
+    printf("----signed_varint_encoder  %d\n",value);
 
     luaL_Buffer b;
     luaL_buffinit(L, &b);
@@ -135,6 +136,8 @@ static int signed_varint_encoder(lua_State *L)
     }else{
         pack_varint(&b, value);
     }
+
+    printf("----signed_varint_encoder ------------------------out--------- %s  \n",b.b);
 
     lua_settop(L, 1);
     luaL_pushresult(&b);
@@ -226,6 +229,9 @@ static size_t size_varint(const char* buffer, size_t len)
 
 static uint64_t unpack_varint(const char* buffer, size_t len)
 {
+    printf("----unpack_varint------%d--%d    \n",buffer[0],len);
+
+
     uint64_t value = buffer[0] & 0x7f;
     size_t shift = 7;
     size_t pos=0;
@@ -234,6 +240,8 @@ static uint64_t unpack_varint(const char* buffer, size_t len)
         value |= ((uint64_t)(buffer[pos] & 0x7f)) << shift;
         shift += 7;
     }
+    printf("----unpack_varint------%s--%d    \n",buffer,value);
+
     return value;
 }
 
@@ -261,12 +269,15 @@ static int signed_varint_decoder(lua_State *L)
     size_t pos = luaL_checkinteger(L, 2);
     buffer += pos;
     len = size_varint(buffer, len);
-
+    printf("----signed_varint_decoder-----%s  %d\n", buffer,(int)pos);
     if(len == -1){
         luaL_error(L, "error data %s, len:%d", buffer, len);
     }else{
-        lua_pushnumber(L, (lua_Number)(int64_t)unpack_varint(buffer, len));
+        lua_Number tt = (lua_Number)(int64_t)unpack_varint(buffer, len);
+        lua_pushnumber(L, tt);
         lua_pushinteger(L, len + pos);
+
+        printf("----signed_varint_decoder--out--- %d\n", tt);
     }
     return 2;
 }
@@ -309,6 +320,8 @@ static int read_tag(lua_State *L)
     const char* buffer = luaL_checklstring(L, 1, &len);
     size_t pos = luaL_checkinteger(L, 2);
 
+    printf("--------read_tag-------%s    %d    \n",buffer,(int)pos);
+
     buffer += pos;
     len = size_varint(buffer, len);
     if(len == -1){
@@ -316,6 +329,8 @@ static int read_tag(lua_State *L)
     }else{
         lua_pushlstring(L, buffer, len);
         lua_pushinteger(L, len + pos);
+
+        printf("--------read_tag-----------out----%s   \n",buffer);
     }
     return 2;
 }

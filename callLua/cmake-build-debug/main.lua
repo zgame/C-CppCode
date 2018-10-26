@@ -12,10 +12,10 @@ package.path = "./Protocol/protobuf/?.lua;"..package.path
 print("main")
 require("protocol_test")
 
-
-xpcall(main, function(err)
-	    print(err)
-	    print(debug.traceback())
-	end)
-
+--
+--xpcall(main, function(err)
+--	    print(err)
+--	    print(debug.traceback())
+--	end)
+--
 
