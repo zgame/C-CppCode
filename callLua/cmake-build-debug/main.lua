@@ -10,6 +10,7 @@ package.path = "./Protocol/protobuf/?.lua;"..package.path
 --require("hello2")
 --require("class_test")
 print("main")
+require("dumpTable")
 require("protocol_test")
 
 --

@@ -224,6 +224,7 @@ static size_t size_varint(const char* buffer, size_t len)
             return -1;
         }
     }
+//    printf("-----------------------size_varint--------%d\n",pos+1);
     return pos+1;
 }
 

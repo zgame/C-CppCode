@@ -12,7 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f32575a1-7a94-400d-b18d-a3882d48fcd4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Protocol/protobuf/pb.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/callLua.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/callLua.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/callLua.dir/pb.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/callLua.dir/pb.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Protocol/protobuf/encoder.lua" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Protocol/protobuf/encoder.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Protocol/protobuf/protobuf.lua" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Protocol/protobuf/protobuf.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Protocol/protocol_test.lua" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Protocol/protocol_test.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/callLua.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/callLua.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/main.lua" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pb.c" beforeDir="false" afterPath="$PROJECT_DIR$/pb.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -41,7 +48,7 @@
     <session id="-1752409273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
@@ -50,24 +57,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="282" />
+          <entry key="GDB" value="8" />
+          <entry key="c" value="332" />
           <entry key="cpp" value="1" />
           <entry key="h" value="2" />
-          <entry key="lua" value="36" />
+          <entry key="lua" value="152" />
           <entry key="txt" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="27" />
-          <entry key="Lua" value="33" />
-          <entry key="ObjectiveC" value="285" />
+          <entry key="GDBCommands" value="8" />
+          <entry key="Lua" value="149" />
+          <entry key="ObjectiveC" value="335" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="c" value="4" />
+          <entry key="c" value="5" />
           <entry key="h" value="8" />
           <entry key="lua" value="6" />
         </counts>
@@ -75,7 +84,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Lua" value="5" />
-          <entry key="ObjectiveC" value="12" />
+          <entry key="ObjectiveC" value="13" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -83,11 +92,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pb.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="123" column="32" selection-start-line="123" selection-start-column="11" selection-end-line="123" selection-end-column="32" />
+            <state relative-caret-position="298">
+              <caret line="327" selection-start-line="327" selection-end-line="327" />
+              <folding>
+                <element signature="e#17#711#0" />
+                <element signature="e#1188#1246#0" />
+                <element signature="e#1258#2920#0" />
+                <element signature="e#2922#3214#0" />
+                <element signature="e#3216#3604#0" />
+                <element signature="e#3606#3837#0" />
+                <element signature="e#3839#4070#0" />
+                <element signature="e#4072#5193#0" />
+                <element signature="e#5404#5693#0" />
+                <element signature="e#5695#6125#0" />
+                <element signature="e#6127#6573#0" />
+                <element signature="e#6575#6749#0" />
+                <element signature="e#6751#6944#0" />
+                <element signature="e#6946#7128#0" />
+                <element signature="e#7130#7322#0" />
+                <element signature="e#7724#7930#0" />
+                <element signature="e#7932#8138#0" />
+                <element signature="e#8140#9315#0" />
+                <element signature="e#9317#9529#0" />
+                <element signature="e#9531#9666#0" />
+                <element signature="e#9668#9794#0" />
+                <element signature="e#9796#10115#0" />
+                <element signature="e#10117#10447#0" />
+                <element signature="e#10449#10561#0" />
+                <element signature="e#11422#11648#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ldo.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="433" selection-start-line="433" selection-end-line="433" />
             </state>
           </provider>
         </entry>
@@ -95,7 +140,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lauxlib.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
+            <state relative-caret-position="193">
               <caret line="389" column="23" selection-start-line="389" selection-start-column="23" selection-end-line="389" selection-end-column="23" />
             </state>
           </provider>
@@ -104,8 +149,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmake-build-debug/Protocol/protocol_test.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="361">
+              <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -113,8 +158,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmake-build-debug/Protocol/protobuf/protobuf.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="336">
+              <caret line="687" column="29" lean-forward="true" selection-start-line="687" selection-start-column="29" selection-end-line="687" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -122,8 +167,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lauxlib.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="153" column="2" selection-start-line="153" selection-start-column="2" selection-end-line="153" selection-end-column="2" />
+            <state relative-caret-position="193">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -131,17 +176,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmake-build-debug/Protocol/protobuf/encoder.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="245" lean-forward="true" selection-start-line="245" selection-end-line="245" />
+            <state relative-caret-position="-615">
+              <caret line="235" column="14" lean-forward="true" selection-start-line="235" selection-start-column="14" selection-end-line="235" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cmake-build-debug/Protocol/protobuf/decoder.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="47" column="48" lean-forward="true" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+            <state relative-caret-position="142">
+              <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -159,19 +204,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/luaconf.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="489" column="8" selection-start-line="489" selection-start-column="8" selection-end-line="489" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmake-build-debug/main.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="228">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -186,15 +222,19 @@
       <find>_AttachFieldHel</find>
       <find>print</find>
       <find>----_SimpleSiz</find>
-      <find>_SimpleSize</find>
       <find>signed_varint_encode</find>
       <find>luaL_prepbuffsize</find>
       <find>signed_varint_decoder</find>
-      <find>read_tag</find>
       <find>ed_varint_decod</find>
       <find>unpack_varin</find>
       <find>pack_vari</find>
       <find>igned_varint_enco</find>
+      <find>-----read_tag-</find>
+      <find>--read_tag------</find>
+      <find>read_tag</find>
+      <find>_SimpleDecoder</find>
+      <find>ed_varint_encoder ------------</find>
+      <find>_SimpleSize</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -208,12 +248,12 @@
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/lua.c" />
         <option value="$PROJECT_DIR$/cmake-build-debug/Protocol/build/user_pb.lua" />
-        <option value="$PROJECT_DIR$/cmake-build-debug/Protocol/protobuf/protobuf.lua" />
         <option value="$PROJECT_DIR$/cmake-build-debug/main.lua" />
-        <option value="$PROJECT_DIR$/cmake-build-debug/Protocol/protocol_test.lua" />
-        <option value="$PROJECT_DIR$/cmake-build-debug/Protocol/protobuf/encoder.lua" />
-        <option value="$PROJECT_DIR$/cmake-build-debug/Protocol/protobuf/decoder.lua" />
         <option value="$PROJECT_DIR$/pb.c" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/Protocol/protobuf/protobuf.lua" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/Protocol/protobuf/encoder.lua" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/Protocol/protocol_test.lua" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/Protocol/protobuf/decoder.lua" />
       </list>
     </option>
   </component>
@@ -261,6 +301,19 @@
               <item name="callLua" type="b2602c69:ProjectViewProjectNode" />
               <item name="callLua" type="462c0819:PsiDirectoryNode" />
               <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="callLua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="callLua" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+              <item name="Protocol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="callLua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="callLua" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+              <item name="Protocol" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,24 +368,24 @@
       <updated>1540462068676</updated>
       <workItem from="1540462070586" duration="2188000" />
       <workItem from="1540519547878" duration="1724000" />
-      <workItem from="1540521613352" duration="10756000" />
+      <workItem from="1540521613352" duration="16860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14668000" />
+    <option name="totallyTimeSpent" value="20772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1359275" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1359275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.28416485" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.31561822" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3373102" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -402,41 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/main.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Protocol/protobuf/protobuf.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Protocol/protobuf/encoder.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="245" lean-forward="true" selection-start-line="245" selection-end-line="245" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Protocol/protobuf/decoder.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="47" column="48" lean-forward="true" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lauxlib.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="389" column="23" selection-start-line="389" selection-start-column="23" selection-end-line="389" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/luaconf.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
@@ -454,24 +472,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Protocol/protocol_test.lua">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/main.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="228">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lauxlib.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="389" column="23" selection-start-line="389" selection-start-column="23" selection-end-line="389" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lauxlib.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="153" column="2" selection-start-line="153" selection-start-column="2" selection-end-line="153" selection-end-column="2" />
+        <state relative-caret-position="193">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ldo.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="433" selection-start-line="433" selection-end-line="433" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pb.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="123" column="32" selection-start-line="123" selection-start-column="11" selection-end-line="123" selection-end-column="32" />
+        <state relative-caret-position="298">
+          <caret line="327" selection-start-line="327" selection-end-line="327" />
+          <folding>
+            <element signature="e#17#711#0" />
+            <element signature="e#1188#1246#0" />
+            <element signature="e#1258#2920#0" />
+            <element signature="e#2922#3214#0" />
+            <element signature="e#3216#3604#0" />
+            <element signature="e#3606#3837#0" />
+            <element signature="e#3839#4070#0" />
+            <element signature="e#4072#5193#0" />
+            <element signature="e#5404#5693#0" />
+            <element signature="e#5695#6125#0" />
+            <element signature="e#6127#6573#0" />
+            <element signature="e#6575#6749#0" />
+            <element signature="e#6751#6944#0" />
+            <element signature="e#6946#7128#0" />
+            <element signature="e#7130#7322#0" />
+            <element signature="e#7724#7930#0" />
+            <element signature="e#7932#8138#0" />
+            <element signature="e#8140#9315#0" />
+            <element signature="e#9317#9529#0" />
+            <element signature="e#9531#9666#0" />
+            <element signature="e#9668#9794#0" />
+            <element signature="e#9796#10115#0" />
+            <element signature="e#10117#10447#0" />
+            <element signature="e#10449#10561#0" />
+            <element signature="e#11422#11648#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Protocol/protobuf/protobuf.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="687" column="29" lean-forward="true" selection-start-line="687" selection-start-column="29" selection-end-line="687" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Protocol/protocol_test.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Protocol/protobuf/encoder.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-615">
+          <caret line="235" column="14" lean-forward="true" selection-start-line="235" selection-start-column="14" selection-end-line="235" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Protocol/protobuf/decoder.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
         </state>
       </provider>
     </entry>

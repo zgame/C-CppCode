@@ -309,6 +309,7 @@ local function _AttachFieldHelpers(message_meta, field_descriptor)
 
     local AddDecoder = function(wiretype, is_packed)
         local tag_bytes = encoder.TagBytes(field_descriptor.number, wiretype)
+        print("******************tag_bytes",tag_bytes)
         message_meta._decoders_by_tag[tag_bytes] = TYPE_TO_DECODER[field_descriptor.type](field_descriptor.number, is_repeated, is_packed, field_descriptor, field_descriptor._default_constructor)
     end
   
@@ -677,6 +678,7 @@ local function _AddMergeFromStringMethod(message_descriptor, message_meta)
         local field_decoder
         while pos ~= pend do
             tag_bytes, new_pos = ReadTag(buffer, pos)
+            print("********ReadTag",tag_bytes," ***" ,new_pos)
             field_decoder = decoders_by_tag[tag_bytes]
             if field_decoder == nil then
                 new_pos = SkipField(buffer, new_pos, pend, tag_bytes)
@@ -686,6 +688,7 @@ local function _AddMergeFromStringMethod(message_descriptor, message_meta)
                 pos = new_pos
             else
                 pos = field_decoder(buffer, new_pos, pend, self, field_dict)
+
             end
         end
         return pos

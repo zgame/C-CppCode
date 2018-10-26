@@ -9,18 +9,17 @@
 local user_pb = require('user_pb')
 
 local person= user_pb.Friend()
-print("-------------1--------: ", person)
 person.nameb = 1
 --person.adress = false
 
-
-
-print("-------------2--------")
+--
+--
+--print("-------------2--------")
 local data = person:SerializeToString()
 print("-------------3--------data",data)
 local msg = user_pb.Friend()
-print("-------------4--------")
+--print("-------------4--------")
 msg:ParseFromString(data)
-print("-------------5--------")
+--print("-------------5--------")
 print(msg.nameb)
-
+--

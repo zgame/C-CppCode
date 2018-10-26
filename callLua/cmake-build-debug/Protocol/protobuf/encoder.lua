@@ -16,6 +16,7 @@
 --------------------------------------------------------------------------------
 --
 local print = print     -- module 调用系统函数
+local printTable = printTable     -- module 调用系统函数
 
 
 local string = string
@@ -231,6 +232,10 @@ function _VarintBytes(value)
         out[#out + 1 ] = value
     end
     _EncodeSignedVarint(write, value)
+--    pp =
+--print(value)
+--printTable(out)
+--    print("ppppppppp-----",pp)
     return table.concat(out)
 end
 
