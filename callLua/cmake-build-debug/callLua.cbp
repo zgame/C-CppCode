@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="callLua"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="callLua">
+				<Option output="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug/callLua.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.2/include"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.2/include-fixed"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="d:/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++"/>
+					<Add directory="d:/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="d:/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug/Makefile&quot;  VERBOSE=1 callLua"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="callLua/fast">
+				<Option output="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug/callLua.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.2/include"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.2/include-fixed"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="d:/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++"/>
+					<Add directory="d:/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="d:/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug/Makefile&quot;  VERBOSE=1 callLua/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Documents/GitHub/CppCode/callLua/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lapi.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lapi.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lauxlib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lauxlib.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lbaselib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lbitlib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lcode.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lcode.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lcorolib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lctype.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lctype.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/ldblib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/ldebug.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/ldebug.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/ldo.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/ldo.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/ldump.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lfunc.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lfunc.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lgc.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lgc.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/linit.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/liolib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/llex.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/llex.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lmathlib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lmem.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lmem.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/loadlib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lobject.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lobject.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lopcodes.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lopcodes.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/loslib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lparser.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lparser.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lstate.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lstate.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lstring.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lstring.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lstrlib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/ltable.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/ltable.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/ltablib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/ltm.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/ltm.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lua.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lua.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/luaconf.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lualib.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lundump.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lundump.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lutf8lib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lvm.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lvm.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lzio.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/lzio.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/main.cpp">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/pb.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/pb.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Documents/GitHub/CppCode/callLua/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

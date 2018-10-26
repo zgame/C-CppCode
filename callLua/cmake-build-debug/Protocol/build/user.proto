@@ -1,0 +1,10 @@
+syntax = "proto3";
+package tutorial;
+//import "google/protobuf/timestamp.proto";
+
+message Friend {                //descriptor
+    bool nameb = 1;             // field
+    //bool address = 2;
+    //bool ad = 3;
+
+  }
