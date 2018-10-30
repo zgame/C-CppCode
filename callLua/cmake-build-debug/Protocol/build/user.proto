@@ -2,7 +2,7 @@ syntax = "proto3";
 package tutorial;
 //import "google/protobuf/timestamp.proto";
 
-message Friend {                //descriptor
+message Friend {
     double zswnameb = 1;
     bool address = 2;
     float ad = 3;
@@ -15,5 +15,5 @@ message Friend {                //descriptor
 	sint64 ad7 = 10;
 	fixed32 ad8 = 11;
 	fixed64 ad9 = 12;
-
+	bytes ad10 = 13;
   }

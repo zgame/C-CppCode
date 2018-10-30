@@ -13,8 +13,9 @@ local person= user_pb.Friend()
 person.zswnameb = -855.9687
 person.address = false
 person.ad = 1
-person.ad1 = -9223372036854775800
---person.ad2 = 9223372036854775800
+person.ad1 = -64
+person.ad2 = 65
+person.ad10 = string.char(112,113,114,115)
 
 --
 --
@@ -32,6 +33,7 @@ print(msg.address)
 print(msg.ad)
 print(msg.ad1)
 print(msg.ad2)
+print(msg.ad10)
 --
 
 
