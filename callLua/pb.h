@@ -8,3 +8,4 @@
 
 
 int luaopen_pb (lua_State *L);
+void ZswShowBuffer(const char* buffer,int len);

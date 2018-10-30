@@ -117,6 +117,9 @@ static int varint_encoder(lua_State *L)
 
     lua_settop(L, 1);
     luaL_pushresult(&b);
+
+//    ZswShowBuffer(b.b, b.n);
+
     lua_call(L, 1, 0);
     return 0;
 }
@@ -137,13 +140,19 @@ static int signed_varint_encoder(lua_State *L)
         pack_varint(&b, value);
     }
 
-    printf("----signed_varint_encoder ------------------------out--------- %s  \n",b.b);
+    ZswShowBuffer(b.b, b.n);
+//    printf("----signed_varint_encoder ------------------------out--------- %d  \n",b.b[0]);
+//    printf("----signed_varint_encoder ------------------------out--------- %d  \n",b.b[1]);
+//    printf("----signed_varint_encoder ------------------------out--------- %d  \n",b.b[2]);
 
     lua_settop(L, 1);
     luaL_pushresult(&b);
     lua_call(L, 1, 0);
     return 0;
 }
+
+
+
 
 static int pack_fixed32(lua_State *L, uint8_t* value){
 #ifdef IS_LITTLE_ENDIAN
@@ -171,6 +180,7 @@ static int struct_pack(lua_State *L)
     lua_Number value = luaL_checknumber(L, 3);
     lua_settop(L, 1);
 
+    printf("----struct_pack ------------------------------- %d    %d \n",format , value);
     switch(format){
         case 'i':
         {
@@ -232,7 +242,6 @@ static uint64_t unpack_varint(const char* buffer, size_t len)
 {
     printf("----unpack_varint------%d--%d    \n",buffer[0],len);
 
-
     uint64_t value = buffer[0] & 0x7f;
     size_t shift = 7;
     size_t pos=0;
@@ -241,7 +250,7 @@ static uint64_t unpack_varint(const char* buffer, size_t len)
         value |= ((uint64_t)(buffer[pos] & 0x7f)) << shift;
         shift += 7;
     }
-    printf("----unpack_varint------%s--%d    \n",buffer,value);
+    printf("----unpack_varint------out--%d    \n",value);
 
     return value;
 }
@@ -257,8 +266,11 @@ static int varint_decoder(lua_State *L)
     if(len == -1){
         luaL_error(L, "error data %s, len:%d", buffer, len);
     }else{
-        lua_pushnumber(L, (lua_Number)unpack_varint(buffer, len));
+        lua_Number tt = (lua_Number)unpack_varint(buffer, len);
+        lua_pushnumber(L, tt);
         lua_pushinteger(L, len + pos);
+
+        printf("   ------read------      varint_decoder:   ii %d   pos   %d  \n",tt,  len + pos);
     }
     return 2;
 }
@@ -278,7 +290,7 @@ static int signed_varint_decoder(lua_State *L)
         lua_pushnumber(L, tt);
         lua_pushinteger(L, len + pos);
 
-        printf("----signed_varint_decoder--out--- %d\n", tt);
+        printf("   ------read------      signed_varint_decoder:   ii %d   pos   %d  \n",tt,  len + pos);
     }
     return 2;
 }
@@ -321,7 +333,7 @@ static int read_tag(lua_State *L)
     const char* buffer = luaL_checklstring(L, 1, &len);
     size_t pos = luaL_checkinteger(L, 2);
 
-    printf("--------read_tag-------%s    %d    \n",buffer,(int)pos);
+    printf("--------read_tag-------   %d    \n",(int)pos);
 
     buffer += pos;
     len = size_varint(buffer, len);
@@ -331,10 +343,30 @@ static int read_tag(lua_State *L)
         lua_pushlstring(L, buffer, len);
         lua_pushinteger(L, len + pos);
 
-        printf("--------read_tag-----------out----%s   \n",buffer);
+        ZswShowBuffer(buffer,(int)len);
+//        printf("--------read_tag-----*************************************************------out----%x   \n",buffer[0]);
     }
     return 2;
 }
+void ZswShowBuffer(const char* buffer,int len){
+    int i=0;
+    for(i=0;i<len;i++)
+    {
+        printf("*********************ZswShowBuffer**********************************************------out----%d   \n",buffer[i]);
+    }
+}
+static int ZswShowLuaBuffer(lua_State *L)
+{
+    size_t len;
+    const char* buffer = luaL_checklstring(L, 1, &len);
+    int i=0;
+    for(i=0;i<len;i++)
+    {
+        printf("---------****[[[[[[ZswShowLuaBuffer]]]]]]]*****************------out----%d  \n",buffer[i]);
+    }
+}
+
+
 
 static const uint8_t* unpack_fixed32(const uint8_t* buffer, uint8_t* cache)
 {
@@ -363,8 +395,14 @@ static int struct_unpack(lua_State *L)
     const uint8_t* buffer = (uint8_t*)luaL_checklstring(L, 2, &len);
     size_t pos = luaL_checkinteger(L, 3);
 
+//    printf("**********************************struct_unpack****************************************len  %d   pos  %d\n", len ,pos);
+
+
     buffer += pos;
     uint8_t out[8];
+
+//    ZswShowBuffer(buffer,len);
+
     switch(format){
         case 'i':
         {
@@ -405,6 +443,7 @@ static int struct_unpack(lua_State *L)
 
 static int iostring_new(lua_State* L)
 {
+    printf("-------iostring_new-------");
     IOString* io = (IOString*)lua_newuserdata(L, sizeof(IOString));
     io->size = 0;
 
@@ -415,6 +454,7 @@ static int iostring_new(lua_State* L)
 
 static int iostring_str(lua_State* L)
 {
+    printf("-------iostring_str-------");
     IOString *io = checkiostring(L);
     lua_pushlstring(L, io->buf, io->size);
     return 1;
@@ -422,6 +462,7 @@ static int iostring_str(lua_State* L)
 
 static int iostring_len(lua_State* L)
 {
+    printf("-------iostring_len-------");
     IOString *io = checkiostring(L);
     lua_pushinteger(L, io->size);
     return 1;
@@ -429,6 +470,7 @@ static int iostring_len(lua_State* L)
 
 static int iostring_write(lua_State* L)
 {
+    printf("-------iostring_write-------");
     IOString *io = checkiostring(L);
     size_t size;
     const char* str = luaL_checklstring(L, 2, &size);
@@ -442,6 +484,7 @@ static int iostring_write(lua_State* L)
 
 static int iostring_sub(lua_State* L)
 {
+    printf("-------iostring_sub-------");
     IOString *io = checkiostring(L);
     size_t begin = luaL_checkinteger(L, 2);
     size_t end = luaL_checkinteger(L, 3);
@@ -456,6 +499,7 @@ static int iostring_sub(lua_State* L)
 
 static int iostring_clear(lua_State* L)
 {
+    printf("-------iostring_clear-------");
     IOString *io = checkiostring(L);
     io->size = 0;
     return 0;
@@ -474,6 +518,7 @@ static const struct luaL_Reg _pb[] = {
         {"zig_zag_decode64", zig_zag_decode64},
         {"zig_zag_encode64", zig_zag_encode64},
         {"new_iostring", iostring_new},
+        {"ZswShowLuaBuffer", ZswShowLuaBuffer},
         {NULL, NULL}
 };
 

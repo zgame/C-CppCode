@@ -636,6 +636,7 @@ local function _AddSerializeToStringMethod(message_descriptor, message_meta)
 end
 
 local function _AddSerializePartialToStringMethod(message_descriptor, message_meta)
+    print("_AddSerializePartialToStringMethod")
     local concat = table.concat
     local _internal_serialize = function(self, write_bytes)
         for field_descriptor, field_value in message_meta._member.ListFields(self) do
@@ -678,7 +679,8 @@ local function _AddMergeFromStringMethod(message_descriptor, message_meta)
         local field_decoder
         while pos ~= pend do
             tag_bytes, new_pos = ReadTag(buffer, pos)
-            print("********ReadTag",tag_bytes," ***" ,new_pos)
+--            pb.ZswShowLuaBuffer(tag_bytes)
+--            print("********ReadTag",tag_bytes," ***" ,new_pos)
             field_decoder = decoders_by_tag[tag_bytes]
             if field_decoder == nil then
                 new_pos = SkipField(buffer, new_pos, pend, tag_bytes)
@@ -814,6 +816,7 @@ local function _AddMergeFromMethod(message_meta)
 end
 
 local function _AddMessageMethods(message_descriptor, message_meta)
+    print("******************************************_AddMessageMethods******************************************************")
     _AddListFieldsMethod(message_descriptor, message_meta)
     _AddHasFieldMethod(message_descriptor, message_meta)
     _AddClearFieldMethod(message_descriptor, message_meta)
