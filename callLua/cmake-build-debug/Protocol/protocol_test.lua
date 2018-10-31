@@ -17,7 +17,20 @@ person.ad1 = -64
 person.ad2 = 65
 person.ad10 = string.char(112,113,114,115)
 
---
+
+
+
+local tt = user_pb.Zsw:add()
+tt.name = "sdf"
+
+
+--local zzz = user_pb.Zsw()
+--zzz.name = "sdfsd这是"
+--zzz.id = 21343
+
+--table.insert(person.zz , zzz)
+
+
 --
 print("-------------2--------")
 local data = person:SerializeToString()
@@ -34,6 +47,7 @@ print(msg.ad)
 print(msg.ad1)
 print(msg.ad2)
 print(msg.ad10)
+print(msg.zz)
 --
 
 
