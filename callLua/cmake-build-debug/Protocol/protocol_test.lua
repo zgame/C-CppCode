@@ -20,8 +20,9 @@ person.ad10 = string.char(112,113,114,115)
 
 
 
-local tt = user_pb.Zsw:add()
-tt.name = "sdf"
+local tt = person.zz:add()
+tt.name = "sdf这是"
+tt.id = 324
 
 
 --local zzz = user_pb.Zsw()
@@ -47,7 +48,8 @@ print(msg.ad)
 print(msg.ad1)
 print(msg.ad2)
 print(msg.ad10)
-print(msg.zz)
+print(msg.zz[1].name)
+print(msg.zz[1].id)
 --
 
 
