@@ -4,7 +4,13 @@
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
+    ssPrint();  // c
 
-    print();
+    people s;   // c++
+//    s.print();
+
+    man m;
+
+
     return 0;
 }

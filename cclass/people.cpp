@@ -4,9 +4,20 @@
 #include <iostream>
 #include "people.h"
 
-class people {
-    void print(){
-        std::cout << "Hello ssssssssssss World!" << std::endl;
+void people::print(){
+        std::cout << "Hello ccccccccccccccccccccccccccc World!" << std::endl;
     }
+//people::people() {
+//    std::cout << "Hello people!" << std::endl;
+//}
 
-};
+man::man() {
+    std::cout << "Hello man!" << std::endl;
+}
+man::people() {
+    std::cout << "Hello man!" << std::endl;
+}
+
+void ssPrint(){
+    std::cout << "Hello ssssssssssss World!" << std::endl;
+}

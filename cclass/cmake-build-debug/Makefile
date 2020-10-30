@@ -169,6 +169,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cclass.dir\build.make CMakeFiles/cclass.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+people.obj: people.cpp.obj
+
+.PHONY : people.obj
+
+# target to build an object file
+people.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cclass.dir\build.make CMakeFiles/cclass.dir/people.cpp.obj
+.PHONY : people.cpp.obj
+
+people.i: people.cpp.i
+
+.PHONY : people.i
+
+# target to preprocess a source file
+people.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cclass.dir\build.make CMakeFiles/cclass.dir/people.cpp.i
+.PHONY : people.cpp.i
+
+people.s: people.cpp.s
+
+.PHONY : people.s
+
+# target to generate assembly for a file
+people.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cclass.dir\build.make CMakeFiles/cclass.dir/people.cpp.s
+.PHONY : people.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -181,6 +208,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... people.obj
+	@echo ... people.i
+	@echo ... people.s
 .PHONY : help
 
 

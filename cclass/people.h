@@ -7,8 +7,18 @@
 
 
 class people {
+public:
+    virtual people();
     void print();
 };
 
+void ssPrint();
 
 #endif //CCLASS_PEOPLE_H
+
+
+class man : public people{
+public:
+    man();
+//    people();
+};

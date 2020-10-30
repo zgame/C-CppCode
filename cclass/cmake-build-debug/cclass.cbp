@@ -83,6 +83,12 @@
 		<Unit filename="E:/github/CppCode/cclass/main.cpp">
 			<Option target="cclass"/>
 		</Unit>
+		<Unit filename="E:/github/CppCode/cclass/people.cpp">
+			<Option target="cclass"/>
+		</Unit>
+		<Unit filename="E:/github/CppCode/cclass/people.h">
+			<Option target="cclass"/>
+		</Unit>
 		<Unit filename="E:/github/CppCode/cclass/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
