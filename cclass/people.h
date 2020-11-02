@@ -8,11 +8,11 @@
 
 class people {
 public:
-    virtual people();
+    people();            // 构造函数
+    virtual void peopleP();     // 函数重写
     void print();
 };
 
-void ssPrint();
 
 #endif //CCLASS_PEOPLE_H
 
@@ -20,5 +20,11 @@ void ssPrint();
 class man : public people{
 public:
     man();
-//    people();
+    void peopleP();
+    void print();
 };
+
+
+
+
+void ssPrint();
