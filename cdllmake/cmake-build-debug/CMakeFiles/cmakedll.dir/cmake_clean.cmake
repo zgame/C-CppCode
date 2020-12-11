@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cmakedll.dir/library.c.obj"
-  "libcmakedll.pdb"
   "libcmakedll.dll"
   "libcmakedll.dll.a"
   "libcmakedll.dll.manifest"
+  "libcmakedll.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

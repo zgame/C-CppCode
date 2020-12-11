@@ -4,9 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Administrator/Documents/GitHub/CppCode/cmakedll/library.c" "C:/Users/Administrator/Documents/GitHub/CppCode/cmakedll/cmake-build-debug/CMakeFiles/cmakedll.dir/library.c.obj"
+  "D:/GitHub/CppCode/cdllmake/library.c" "D:/GitHub/CppCode/cdllmake/cmake-build-debug/CMakeFiles/cmakedll.dir/library.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_C
+  "cmakedll_EXPORTS"
+  )
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

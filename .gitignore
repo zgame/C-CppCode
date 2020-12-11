@@ -2,3 +2,4 @@
 *.iml
 *.xml
 cdlluse/.idea/workspace.xml
+callLua/cmake-build-debug/*.*
