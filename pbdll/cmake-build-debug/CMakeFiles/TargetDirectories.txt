@@ -1,3 +1,0 @@
-C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/CMakeFiles/pb.dir
-C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Administrator/Documents/GitHub/CppCode/pbdll/cmake-build-debug/CMakeFiles/rebuild_cache.dir

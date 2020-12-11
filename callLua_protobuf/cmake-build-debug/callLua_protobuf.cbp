@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="callLua_protobuf"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="callLua">
+				<Option output="D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/callLua.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/Makefile&quot;  VERBOSE=1 callLua"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="callLua/fast">
+				<Option output="D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/callLua.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/Makefile&quot;  VERBOSE=1 callLua/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lapi.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lapi.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lauxlib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lauxlib.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lbaselib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lbitlib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lcode.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lcode.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lcorolib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lctype.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lctype.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/ldblib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/ldebug.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/ldebug.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/ldo.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/ldo.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/ldump.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lfunc.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lfunc.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lgc.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lgc.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/linit.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/liolib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/llex.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/llex.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lmathlib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lmem.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lmem.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/loadlib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lobject.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lobject.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lopcodes.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lopcodes.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/loslib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lparser.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lparser.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lstate.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lstate.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lstring.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lstring.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lstrlib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/ltable.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/ltable.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/ltablib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/ltm.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/ltm.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lua.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lua.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/luaconf.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lualib.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lundump.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lundump.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lutf8lib.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lvm.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lvm.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lzio.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/lzio.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/main.cpp">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/pb.c">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/pb.h">
+			<Option target="callLua"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CppCode/callLua_protobuf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

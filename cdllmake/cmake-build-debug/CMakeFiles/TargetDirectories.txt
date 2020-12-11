@@ -1,3 +1,0 @@
-D:/GitHub/CppCode/cdllmake/cmake-build-debug/CMakeFiles/cmakedll.dir
-D:/GitHub/CppCode/cdllmake/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/GitHub/CppCode/cdllmake/cmake-build-debug/CMakeFiles/rebuild_cache.dir
