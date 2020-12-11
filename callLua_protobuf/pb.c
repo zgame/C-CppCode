@@ -860,6 +860,7 @@ LUALIB_API int luaopen_pb_buffer(lua_State *L) {
         lua_setfield(L, -2, "__call");
         lua_setmetatable(L, -2);
     }
+
     return 1;
 }
 

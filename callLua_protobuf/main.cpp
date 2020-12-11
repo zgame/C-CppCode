@@ -9,6 +9,11 @@ extern "C"
 #include "lauxlib.h"
 #include "lualib.h"
 #include "pb.h"
+LUALIB_API int luaopen_pb(lua_State *L);
+//LUALIB_API int luaopen_pb_io(lua_State *L);
+//LUALIB_API int luaopen_pb_conv(lua_State *L);
+//LUALIB_API int luaopen_pb_buffer(lua_State *L);
+//LUALIB_API int luaopen_pb_slice(lua_State *L);
 }
 
 int main() {
@@ -18,7 +23,12 @@ int main() {
         return 0;
     }
     luaL_openlibs(L);
-    luaopen_pb_io(L);
+
+    luaopen_pb(L);
+//    luaopen_pb_io(L);
+//    luaopen_pb_conv(L);
+//    luaopen_pb_buffer(L);
+//    luaopen_pb_slice(L);
 
     luaL_dofile(L, "main.lua");
 

@@ -9,11 +9,11 @@ package.path = "./Protocol/protobuf/?.lua;"..package.path
 --require("hello")
 --require("hello2")
 --require("class_test")
-print("main lua")
+print("main lua 2 ")
 require("dumpTable")
 require("serpent")
 --require("protocol_test")
---require("/Protocol/protocol_test")
+require("protocol_test2")
 
 --
 --xpcall(main, function(err)

@@ -1,3 +1,0 @@
-D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/CMakeFiles/callLua.dir
-D:/GitHub/CppCode/callLua_protobuf/cmake-build-debug/CMakeFiles/edit_cache.dir

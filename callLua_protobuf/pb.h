@@ -362,6 +362,7 @@ PB_NS_END
 #include <assert.h>
 #include <stdlib.h>
 #include <string.h>
+#include "lua.h"
 
 PB_NS_BEGIN
 
@@ -1697,9 +1698,13 @@ PB_API int pb_load(pb_State *S, pb_Slice *s) {
 }
 
 
+
+
+
 PB_NS_END
 
 #endif /* PB_IMPLEMENTATION */
 
 /* cc: flags+='-shared -DPB_IMPLEMENTATION -xc' output='pb.so' */
 
+//LUALIB_API int luaopen_pb(lua_State *L);
