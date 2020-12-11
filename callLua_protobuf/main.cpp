@@ -18,7 +18,7 @@ int main() {
         return 0;
     }
     luaL_openlibs(L);
-    luaopen_pb(L);
+    luaopen_pb_io(L);
 
     luaL_dofile(L, "main.lua");
 

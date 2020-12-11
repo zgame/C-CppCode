@@ -11,7 +11,8 @@ package.path = "./Protocol/protobuf/?.lua;"..package.path
 --require("class_test")
 print("main lua")
 require("dumpTable")
-require("protocol_test")
+require("serpent")
+--require("protocol_test")
 --require("/Protocol/protocol_test")
 
 --
